@@ -15,7 +15,7 @@
 - 🔍 Advanced search functionality
 - 🔄 Real-time updates
 - 📱 Responsive design
-- 🔒 User authentication
+
 
 ### Frontend
 | Technology | Purpose | Badge |
