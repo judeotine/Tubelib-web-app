@@ -103,5 +103,4 @@ Deploy using Vercel:
 </div>
 
 <div style="text-align: center; margin-top: 3rem; padding: 1.5rem; background: #f8f9fa; border-radius: 12px;">
-  <p style="margin: 0;">Made with ❤️ by <a href="https://github.com/judeotine" style="color: #6e45e2; text-decoration: none; font-weight: 600;">Jude Otine</a></p>
 </div>
