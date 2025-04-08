@@ -1,6 +1,12 @@
-# Tubelib
-A modern web application for managing and organizing video content with YouTube integration.
 
+<div align="center">
+  <img src="https://github.com/judeotine/Tubelib-web-app/raw/main/public/144.png" width="200" alt="Tubelib Logo">
+  
+  <h1 style="font-size: 2.5rem; background: linear-gradient(135deg, #FF0000, #6e45e2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 1rem 0;">Tubelib</h1>
+  
+  <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem;">
+  A modern web application for managing and organizing video content with YouTube integration.
+  </p>
 ## ✨ Features
 
 - 🎥 YouTube video management
@@ -68,8 +74,33 @@ Deploy using Vercel:
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjudeotine%2FTubelib-web-app)
 
 
-## 📧 Contact
+<div style="margin: 3rem 0; text-align: center;">
+  <h2 style="border-bottom: 2px solid #6e45e2; padding-bottom: 0.5rem; display: inline-block;">📬 Contact</h2>
+  
+  <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap;">
+    <a href="mailto:judextine28@gmail.com" style="text-decoration: none;">
+      <div style="display: flex; align-items: center; gap: 0.5rem; background: #f8f9fa; padding: 0.8rem 1.5rem; border-radius: 50px;">
+        <img src="https://img.icons8.com/color/48/000000/gmail.png" width="24">
+        <span>judextine28@gmail.com</span>
+      </div>
+    </a>
+    
+  <a href="https://twitter.com/jude_otine" style="text-decoration: none;">
+      <div style="display: flex; align-items: center; gap: 0.5rem; background: #f8f9fa; padding: 0.8rem 1.5rem; border-radius: 50px;">
+        <img src="https://img.icons8.com/color/48/000000/twitter.png" width="24">
+        <span>@jude_otine</span>
+      </div>
+    </a>
+    
+  <a href="https://github.com/judeotine/Tubelib-web-app" style="text-decoration: none;">
+      <div style="display: flex; align-items: center; gap: 0.5rem; background: #f8f9fa; padding: 0.8rem 1.5rem; border-radius: 50px;">
+        <img src="https://img.icons8.com/ios-glyphs/60/000000/github.png" width="24">
+        <span>Project Repository</span>
+      </div>
+    </a>
+  </div>
+</div>
 
-Jude Otine - [@jude_otine](https://twitter.com/jude_otine) - judextine28@gmail.com
-
-Project Link: [https://github.com/judeotine/Tubelib-web-app](https://github.com/judeotine/Tubelib-web-app)
+<div style="text-align: center; margin-top: 3rem; padding: 1.5rem; background: #f8f9fa; border-radius: 12px;">
+  <p style="margin: 0;">Made with ❤️ by <a href="https://github.com/judeotine" style="color: #6e45e2; text-decoration: none; font-weight: 600;">Jude Otine</a></p>
+</div>
