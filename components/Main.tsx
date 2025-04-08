@@ -63,7 +63,7 @@ export default function Main() {
 
   const { updateMetadata, setupHandlers } = useMediaSession(
     currentVideo,
-    mediaHandlers
+    mediaHandlers,
   );
 
   const handleTogglePlay = () => {
@@ -120,7 +120,7 @@ export default function Main() {
       toast.error(
         `No ${
           direction === "prev" ? "previous" : "more"
-        } downloaded videos available`
+        } downloaded videos available`,
       );
     }
   };
@@ -140,7 +140,7 @@ export default function Main() {
     try {
       const result = await getMedia(video.id, video.title);
       if (!result) return;
-      
+
       const { videoUrl, audioUrl } = result;
       setVideoSrc(videoUrl);
       setAudioSrc(audioUrl);
@@ -189,7 +189,7 @@ export default function Main() {
 
   const findNextDownloadedVideo = async (
     currentIndex: number,
-    direction: "next" | "prev"
+    direction: "next" | "prev",
   ) => {
     const step = direction === "next" ? 1 : -1;
     const limit = direction === "next" ? videos.length : -1;
