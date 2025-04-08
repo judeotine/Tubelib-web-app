@@ -2,9 +2,9 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
-const APP_NAME = "BackTrack";
-const APP_DEFAULT_TITLE = "BackTrack";
-const APP_TITLE_TEMPLATE = "BackTrack";
+const APP_NAME = "TubeLib";
+const APP_DEFAULT_TITLE = "TubeLib";
+const APP_TITLE_TEMPLATE = "TubeLib";
 const APP_DESCRIPTION = "Standalone YouTube Media Library";
 
 export const metadata: Metadata = {
