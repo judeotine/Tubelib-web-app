@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "Tubelibhq",
-    "source": ".",
+    "site": "tubelib",
+    "public": "out",
     "ignore": [
       "firebase.json",
       "**/.*",
