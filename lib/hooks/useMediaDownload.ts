@@ -11,7 +11,7 @@ export function useMediaDownload() {
     if (loading) {
       toast.info(title, {
         description: "Download already in progress",
-        duration: 2000
+        duration: 2000,
       });
       return;
     }
@@ -43,7 +43,7 @@ export function useMediaDownload() {
           mediaProgressRef.current = newProgress;
           toast.loading(title, {
             id: toastId,
-            description: `Downloading... ${Math.round(newProgress)}%`
+            description: `Downloading... ${Math.round(newProgress)}%`,
           });
         },
         (progress) => {
@@ -51,9 +51,9 @@ export function useMediaDownload() {
           mediaProgressRef.current = newProgress;
           toast.loading(title, {
             id: toastId,
-            description: `Downloading... ${Math.round(newProgress)}%`
+            description: `Downloading... ${Math.round(newProgress)}%`,
           });
-        }
+        },
       );
 
       if (!video || !audio) {
@@ -68,18 +68,18 @@ export function useMediaDownload() {
       const videoUrl = URL.createObjectURL(videoBlob);
       const audioUrl = URL.createObjectURL(audioBlob);
 
-      toast.success(title, { 
+      toast.success(title, {
         id: toastId,
         description: "Download complete",
-        duration: 2000
+        duration: 2000,
       });
 
       return { videoUrl, audioUrl };
     } catch (error) {
-      toast.error(title, { 
+      toast.error(title, {
         id: toastId,
         description: "Download failed",
-        duration: 2000
+        duration: 2000,
       });
       console.error(error);
       throw error;
@@ -91,6 +91,6 @@ export function useMediaDownload() {
 
   return {
     getMedia,
-    loading
+    loading,
   };
-} 
+}
